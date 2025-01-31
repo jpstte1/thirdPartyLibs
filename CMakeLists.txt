@@ -170,6 +170,7 @@ if( GEOSXTPL_ENABLE_DOXYGEN )
                                   -DCMAKE_CXX_COMPILER=${CMAKE_CXX_COMPILER}
                                   -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
                                   -DCMAKE_CXX_FLAGS=${TPL_CXX_STANDARD}
+                                  -DICONV_COMPILES=1
                                   -DICONV_INCLUDE_DIR=/shared/data1/Users/l1057678/codes/missing/include
                                   -DCMAKE_EXE_LINKER_FLAGS="-L/shared/data1/Users/l1057678/codes/missing/lib -liconv"
                                   )
